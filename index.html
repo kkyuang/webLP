@@ -1,10 +1,38 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.js"></script>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+    </script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="turntable">
+        <div class="turndisk-parent">
+            <div class="turndisk">
+                <div class="rubber"></div>
+                <div class="LP">
+                    <div class="LP-lable">
+                        <img>
+                    </div>
+                </div>
+            </div>
+            <div class="pin"></div>
+        </div>
+        <div class="tone-arm">
+            <div class="arm-axis">
+                <div class="weight"></div>
+                <div class="arm"></div>
+                <div class="cartridge">
+                    <div class="cartridge1"></div>
+                </div>
+            </div>
+        </div>
+        <input type='range' id="arm-deg" min='0' max='50' value='0' step='1' />
+    </div>
+</body>
+
 </html>

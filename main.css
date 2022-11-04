@@ -1,0 +1,166 @@
+.turntable{
+    width: 120vh;
+    height: 90vh;
+    background-color: #222222;
+
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.turndisk-parent{
+    width: calc(90vh * 0.8);
+    height: calc(90vh * 0.8);
+    border-radius: 50%;
+    background-color: #aaaaaa;
+
+    position: absolute;
+    left:10vh;
+    top:50%;
+    transform: translate(0%, -50%);
+}
+
+
+.turndisk{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.rubber{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    position: absolute;
+
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #222222;
+}
+
+.LP{
+    width: 103%;
+    height: 103%;
+    border-radius: 50%;
+    position: absolute;
+
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #000000;
+}
+
+
+.LP-lable{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(191, 50, 50);
+}
+
+
+.pin{
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    position: absolute;
+
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+
+    background-color: #aaaaaa;
+}
+
+.tone-arm{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    position: absolute;
+
+    right:10vh;
+    top:10vh;
+    background-color: #aaaaaa;
+
+}
+
+.arm-axis{
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    position: absolute;
+
+    left:calc(50% - 1.5vh);
+    top:calc(50% - 1.5vh);
+    background-color: #222222;
+
+}
+
+.weight{
+    width: 10vh;
+    height: 15vh;
+    border-radius: 2vh;
+    position: absolute;
+
+    left:50%;
+    bottom: -2.5vh;
+    transform: translate(-50%, 0%);
+    background-color: #666666;
+
+}
+
+.arm{
+    width: 3vh;
+    height: 52vh;
+    border-radius: 0vh;
+    position: absolute;
+
+    left:50%;
+    top: 0vh;
+    transform: translate(-50%, 0%);
+    background-color: #666666;
+
+}
+
+.cartridge{
+    width:4vh;
+    height: 10vh;
+    position: absolute;
+
+    left:calc(50%-0.25vh);
+    top: 52vh;
+    transform: translate(-50%, 0%);
+    transform: rotate(45deg);
+    background-color: #444444;
+
+}
+
+.cartridge1{
+    width:7vh;
+    height: 3vh;
+    position: absolute;
+
+    right:0vh;
+    top: 0vh;
+    transform: translate(-50%, 0%);
+    transform: rotate(0deg);
+    background-color: #666666;
+
+}
